@@ -1,0 +1,119 @@
+-- memory_tb.vhd
+-- Ian Khavin
+
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use work.MIPS_LIB.all;
+
+entity memory_tb is
+end memory_tb;
+
+architecture TEST of memory_tb is
+
+        signal enable                  :    std_logic := '1';
+
+        signal clk                     :    std_logic := '0';
+        signal rst                     :    std_logic := '1';   
+        signal Addr                    :    std_logic_vector(BIT_RANGE) := (others => '0');
+        signal Inport0_En              :    std_logic := '0'; 
+        signal Inport1_En              :    std_logic := '0';
+        signal MemWrite                :    std_logic := '0';
+        signal InportData              :    std_logic_vector(BIT_RANGE) := (others => '0');
+        signal WriteData               :    std_logic_vector(BIT_RANGE) := (others => '0');
+        signal ReadData                :    std_logic_vector(BIT_RANGE) := (others => '0');
+        signal Outport                 :    std_logic_vector(BIT_RANGE) := (others => '0');
+
+begin
+
+    U_MEM: entity work.memory(STRUCT)
+        port map(
+            clk => clk,
+            rst => rst, 
+            Addr => Addr,
+            Inport0_En => Inport0_En,
+            Inport1_En => Inport1_En,
+            MemWrite => MemWrite,
+            InportData => InportData,
+            WriteData => WriteData,
+            ReadData => ReadData,
+            Outport => Outport
+        );
+    
+    clk <= not clk and enable after 10 ns;
+
+    process
+    begin
+            rst <= '0';
+            wait for 20 ns;
+
+            Report "Writing 0x0A0A0A0A to address 0x00000000...";
+            Addr <= (others => '0');
+            WriteData <= std_logic_vector(to_unsigned(16#0A0A0A0A#, 32));
+            MemWrite <= '1';
+            wait for 20 ns;
+
+            Report "Writing 0xF0F0F0F0 to address 0x00000004...";
+            Addr <= std_logic_vector(to_unsigned(16#00000004#, 32));
+            WriteData <= std_logic_vector(to_signed(integer(16#F0F0F0F0#), 32));
+            MemWrite <= '1';
+            wait for 20 ns;
+
+            Report "Reading from address 0x00000000...";
+            Addr <= (others => '0');
+            MemWrite <= '0';
+            wait for 20 ns;
+
+            Report "Reading from address 0x00000001...";
+            Addr <= std_logic_vector(to_unsigned(16#00000001#, 32));
+            wait for 20 ns;
+
+            Report "Reading from address 0x00000004...";
+            Addr <= std_logic_vector(to_unsigned(16#00000004#, 32));
+            wait for 20 ns;
+
+            Report "Reading from address 0x00000005...";
+            Addr <= std_logic_vector(to_unsigned(16#00000005#, 32));
+            wait for 20 ns;
+
+            Report "Writing 0x00001111 to output port...";
+            Addr <= OUTPORT_ADDR_SLV;
+            WriteData <= std_logic_vector(to_unsigned(16#00001111#, 32));
+            MemWrite <= '1';
+            wait for 20 ns;
+
+            Report "Loading 0x00010000 to inport 0...";
+            Addr <= INPORT0_ADDR_SLV;
+            InportData <= std_logic_vector(to_unsigned(16#00010000#, 32));
+            MemWrite <= '0';
+            Inport0_En <= '1';
+            wait for 20 ns;
+
+            Report "Loading 0x00000001 to inport 1...";
+            Addr <= INPORT1_ADDR_SLV;
+            InportData <= std_logic_vector(to_unsigned(16#00000001#, 32));
+            Inport0_En <= '0';
+            Inport1_En <= '1';
+            wait for 20 ns;
+
+            Report "Reading from inport0...";
+            Addr <= INPORT0_ADDR_SLV;
+            wait for 20 ns;
+
+            Report "Reading from inport1...";
+            Addr <= INPORT1_ADDR_SLV;
+            wait for 20 ns;
+
+            report "DONE";
+	    enable <= '0';
+            wait;
+        
+    end process;
+end TEST;
+
+
+
+
+
+

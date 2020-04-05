@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Apr 03 12:28:30 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : mem_block
+Top-level Entity Name : mem
+Family : MAX 10
+Total logic elements : 176
+    Total combinational functions : 80
+    Dedicated logic registers : 98
+Total registers : 98
+Total pins : 165
+Total virtual pins : 0
+Total memory bits : 8,192
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

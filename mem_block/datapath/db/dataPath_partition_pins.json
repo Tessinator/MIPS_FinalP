@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ctrl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "IRWrite",
+					"strict" : false
+				},
+				{
+					"name" : "IorD",
+					"strict" : false
+				},
+				{
+					"name" : "MemWrite",
+					"strict" : false
+				},
+				{
+					"name" : "ALUSrcA",
+					"strict" : false
+				},
+				{
+					"name" : "ALUSrcB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "IN1_en",
+					"strict" : false
+				},
+				{
+					"name" : "IN0_en",
+					"strict" : false
+				},
+				{
+					"name" : "InData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MemToReg",
+					"strict" : false
+				},
+				{
+					"name" : "regDST",
+					"strict" : false
+				},
+				{
+					"name" : "Reg_write",
+					"strict" : false
+				},
+				{
+					"name" : "InData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "InData[8]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

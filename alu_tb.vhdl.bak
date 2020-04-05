@@ -1,0 +1,51 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity alu_tb is
+end alu_tb;
+
+architecture TB of alu_tb is
+
+    constant WIDTH   : positive := 32;
+
+
+    signal Op_sel   	: std_logic_vector(5 downto 0);
+    signal input1     	: std_logic_vector(WIDTH-1 downto 0) := (others => '0');
+    signal input2      	: std_logic_vector(WIDTH-1 downto 0) := (others => '0');
+    signal result		: std_logic_vector(WIDTH-1 downto 0);
+	signal resut_HI		: std_logic_vector(WIDTH-1 downto 0) := (others => '0');
+	signal IR_HI		: std_logic_vector(4 downto 0);
+	signal br_taken		: std_logic;
+
+begin
+
+    UUT : entity work.alu
+        generic map (
+            WIDTH => WIDTH)
+        port map (
+            input1    	=> input1,
+            input2    	=> input2,
+            Op_sel     	=> Op_sel,
+            IR_HI   	=> IR_HI,
+            result      => result,
+            resut_HI    => resut_HI,
+            br_taken 	=> br_taken);
+
+
+    process
+    begin
+
+		input1 <= std_logic_vector(to_unsigned(10, WIDTH));
+		input2 <= std_logic_vector(to_unsigned(15, WIDTH));
+		Op_sel <= "100001";
+		wait for 10 ns;
+		
+        report "DONE!!!!!!" severity note;
+
+        wait;
+
+    end process;
+
+end TB;
+

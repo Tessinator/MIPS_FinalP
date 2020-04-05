@@ -1,0 +1,176 @@
+D:/Documents/School/DD/LABS/Final_Project/concat.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/concat.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concat
+-- Compiling architecture BHV of concat
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/sign_extend.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/sign_extend.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extend
+-- Compiling architecture BHV of sign_extend
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/IR.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/IR.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity IR
+-- Compiling architecture BHV of IR
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/mem_logic.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/mem_logic.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_logic
+-- Compiling architecture BHV of mem_logic
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/mux_four.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/mux_four.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux_four
+-- Compiling architecture BHV of mux_four
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/alu_ctrl.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/alu_ctrl.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_ctrl
+-- Compiling architecture BHV of alu_ctrl
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/RAM/sram.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/RAM/sram.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity sram
+-- Compiling architecture SYN of sram
+
+} {} {}} D:/Documents/School/DD/LABS/Lab5/mux.vhdl {1 {vcom -work work -2002 -explicit -stats=none {D:\Documents\School\DD\LABS\Lab5\mux.vhdl}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux
+-- Compiling architecture BHV of mux
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/mem.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/mem.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture STR of mem
+-- Loading entity mem_logic
+-- Loading entity reg
+-- Loading package altera_mf_components
+-- Loading entity sram
+-- Loading entity mux_four
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/alu_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/alu_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_tb
+-- Compiling architecture TB of alu_tb
+-- Loading entity alu
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/SL_two.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/SL_two.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SL_two
+-- Compiling architecture BHV of SL_two
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/alu.vhdl {2 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/alu.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture BEHAV of alu
+** Warning: D:/Documents/School/DD/LABS/Final_Project/alu.vhdl(80): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+** Warning: D:/Documents/School/DD/LABS/Final_Project/alu.vhdl(86): (vcom-1074) Non-locally static OTHERS choice is allowed only if it is the only choice of the only association.
+
+} {} {}} D:/Documents/School/DD/LABS/Lab5/reg.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Lab5/reg.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg
+-- Compiling architecture BHV of reg
+-- Compiling architecture NO_RST of reg
+-- Loading entity reg
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/mem_tb.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/mem_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_tb
+-- Compiling architecture TB of mem_tb
+-- Loading entity mem
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/register_file.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/register_file.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture async_read of register_file
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/MIPS_DataPath.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/MIPS_DataPath.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MIPS_DataPath
+-- Compiling architecture STR of MIPS_DataPath
+-- Loading entity reg
+-- Loading entity mux
+-- Loading entity zero_extend
+-- Loading entity mem
+-- Loading entity IR
+-- Loading entity register_file
+-- Loading entity sign_extend
+-- Loading entity SL_two
+-- Loading entity mux_four
+-- Loading entity alu
+-- Loading entity alu_ctrl
+
+} {} {}} D:/Documents/School/DD/LABS/Final_Project/zero_extend.vhdl {1 {vcom -work work -2002 -explicit -stats=none D:/Documents/School/DD/LABS/Final_Project/zero_extend.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity zero_extend
+-- Compiling architecture BHV of zero_extend
+
+} {} {}}

@@ -1,0 +1,785 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Documents/School/DD/LABS/Lab6
+Ealu
+Z0 w1585929818
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/Documents/School/DD/LABS/Final_Project
+Z5 8D:/Documents/School/DD/LABS/Final_Project/alu.vhdl
+Z6 FD:/Documents/School/DD/LABS/Final_Project/alu.vhdl
+l0
+L5
+VhO`J9]Lzko9GWXVk<CYgQ0
+!s100 bCoCHhXz?[fJI`kz>g]0:2
+Z7 OV;C;10.5b;63
+32
+!s110 1585929848
+!i10b 1
+Z8 !s108 1585929848.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/alu.vhdl|
+Z10 !s107 D:/Documents/School/DD/LABS/Final_Project/alu.vhdl|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+R3
+Z13 DEx4 work 3 alu 0 22 hO`J9]Lzko9GWXVk<CYgQ0
+l20
+L19
+VFjIL5mlJgNFS80@a>gG>e0
+!s100 2N[N]iNMT:7:2lOGdQEWM1
+R7
+32
+!s110 1585929849
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu_ctrl
+Z14 w1585889306
+R1
+R2
+R3
+R4
+Z15 8D:/Documents/School/DD/LABS/Final_Project/alu_ctrl.vhdl
+Z16 FD:/Documents/School/DD/LABS/Final_Project/alu_ctrl.vhdl
+l0
+L5
+V87n74BlMjC>a9FK7R?Wej0
+!s100 K@afFMCB9DnF?5RMhRkOB1
+R7
+32
+Z17 !s110 1585928274
+!i10b 1
+Z18 !s108 1585928274.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/alu_ctrl.vhdl|
+Z20 !s107 D:/Documents/School/DD/LABS/Final_Project/alu_ctrl.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+Z21 DEx4 work 8 alu_ctrl 0 22 87n74BlMjC>a9FK7R?Wej0
+l17
+L16
+V:c]YcO]7HXDEZZLLBX?ki1
+!s100 YQBY:g`<[7k1c8SZnV4VB2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Ealu_tb
+Z22 w1585925882
+R1
+R2
+R3
+R4
+Z23 8D:/Documents/School/DD/LABS/Final_Project/alu_tb.vhdl
+Z24 FD:/Documents/School/DD/LABS/Final_Project/alu_tb.vhdl
+l0
+L5
+VncaQOdMWQ^kcITg6^Im^<0
+!s100 HghMJNND=5E>FPh]e<aLR0
+R7
+32
+Z25 !s110 1585928272
+!i10b 1
+Z26 !s108 1585928272.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/alu_tb.vhdl|
+Z28 !s107 D:/Documents/School/DD/LABS/Final_Project/alu_tb.vhdl|
+!i113 1
+R11
+R12
+Atb
+R13
+R1
+R2
+R3
+DEx4 work 6 alu_tb 0 22 ncaQOdMWQ^kcITg6^Im^<0
+l21
+L8
+VPYRfk>826Bz`DAOKPFVl00
+!s100 @`6POjJbf`fh3=RjVbCl:1
+R7
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R11
+R12
+Econcat
+Z29 w1585864186
+R1
+R2
+R3
+R4
+Z30 8D:/Documents/School/DD/LABS/Final_Project/concat.vhdl
+Z31 FD:/Documents/School/DD/LABS/Final_Project/concat.vhdl
+l0
+L5
+VbFZN_?Lej3I>kWNIi5B0R3
+!s100 J68ai6JERi39=;A8VZnVJ3
+R7
+32
+R17
+!i10b 1
+R18
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/concat.vhdl|
+Z33 !s107 D:/Documents/School/DD/LABS/Final_Project/concat.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+DEx4 work 6 concat 0 22 bFZN_?Lej3I>kWNIi5B0R3
+l16
+L14
+V0JjUVSz9hPJ:II=<L`Z5]2
+!s100 j56QI:T`ezhR7RM@>kY_d2
+R7
+32
+R17
+!i10b 1
+R18
+R32
+R33
+!i113 1
+R11
+R12
+Eir
+Z34 w1585842154
+R1
+R2
+R3
+R4
+Z35 8D:/Documents/School/DD/LABS/Final_Project/IR.vhdl
+Z36 FD:/Documents/School/DD/LABS/Final_Project/IR.vhdl
+l0
+L5
+VI3HCdKcg^>Ma1WT:bd7TY1
+!s100 9Ja@d2YX2]PV]R`i;<ePE1
+R7
+32
+Z37 !s110 1585928273
+!i10b 1
+Z38 !s108 1585928273.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/IR.vhdl|
+Z40 !s107 D:/Documents/School/DD/LABS/Final_Project/IR.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+Z41 DEx4 work 2 ir 0 22 I3HCdKcg^>Ma1WT:bd7TY1
+l20
+L19
+Vg<cL_I^;Bh4;mZFL4gE4N0
+!s100 GSd;gj0EgS9WAK8WXhdJo3
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Emem
+Z42 w1585928354
+R1
+R2
+R3
+R4
+Z43 8D:/Documents/School/DD/LABS/Final_Project/mem.vhdl
+Z44 FD:/Documents/School/DD/LABS/Final_Project/mem.vhdl
+l0
+L5
+VJe]DZ<]GIQa2>h]36N1Lc0
+!s100 HTfLMd;B8O8bUBa79D?]:3
+R7
+32
+Z45 !s110 1585928381
+!i10b 1
+Z46 !s108 1585928381.000000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/mem.vhdl|
+Z48 !s107 D:/Documents/School/DD/LABS/Final_Project/mem.vhdl|
+!i113 1
+R11
+R12
+Astr
+Z49 DEx4 work 8 mux_four 0 22 fm5@BA7OVW4fXAaJR>hhk3
+Z50 DPx9 altera_mf 20 altera_mf_components 0 22 Sn8Ol<dGSW99iM6NfOU>g1
+Z51 DEx4 work 4 sram 0 22 ]3c[LUj6:51Ofo@Ea;B9z2
+Z52 DEx4 work 3 reg 0 22 IJn0FzN`;FV94biM7Jb=i3
+Z53 DEx4 work 9 mem_logic 0 22 K]Sf4djT@V9D2M;lGbBUG2
+R1
+R2
+R3
+Z54 DEx4 work 3 mem 0 22 Je]DZ<]GIQa2>h]36N1Lc0
+l26
+L21
+VQW]ZG8Fmde_9NbDG:35RN3
+!s100 i:EdY2WOBC9E8@FV^0QXm0
+R7
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Emem_logic
+Z55 w1585926695
+R1
+R2
+R3
+R4
+Z56 8D:/Documents/School/DD/LABS/Final_Project/mem_logic.vhdl
+Z57 FD:/Documents/School/DD/LABS/Final_Project/mem_logic.vhdl
+l0
+L5
+VK]Sf4djT@V9D2M;lGbBUG2
+!s100 SQM:5>M;=D8WH_9:8n3_j1
+R7
+32
+R37
+!i10b 1
+R38
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/mem_logic.vhdl|
+Z59 !s107 D:/Documents/School/DD/LABS/Final_Project/mem_logic.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R53
+l16
+L15
+V=:Wf4iOPfGjThoiM4OR1Y0
+!s100 zL[f]X2kBGieAzj>@?V?31
+R7
+32
+R37
+!i10b 1
+R38
+R58
+R59
+!i113 1
+R11
+R12
+Emem_tb
+Z60 w1585931801
+R1
+R2
+R3
+R4
+Z61 8D:/Documents/School/DD/LABS/Final_Project/mem_tb.vhdl
+Z62 FD:/Documents/School/DD/LABS/Final_Project/mem_tb.vhdl
+l0
+L10
+V:=jRWA?dleC56NXmV4B853
+!s100 J9>`N9EG391k7NgeGS`9C0
+R7
+32
+Z63 !s110 1585931811
+!i10b 1
+Z64 !s108 1585931811.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/mem_tb.vhdl|
+Z66 !s107 D:/Documents/School/DD/LABS/Final_Project/mem_tb.vhdl|
+!i113 1
+R11
+R12
+Atb
+R54
+R1
+R2
+R3
+Z67 DEx4 work 6 mem_tb 0 22 :=jRWA?dleC56NXmV4B853
+l28
+L13
+V2lam0=5LdRXA^XCPR^Imo3
+!s100 5@GiOWc[lJEzU`V>KR9il3
+R7
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R11
+R12
+Emips_datapath
+Z68 w1585893410
+R1
+R2
+R3
+R4
+Z69 8D:/Documents/School/DD/LABS/Final_Project/MIPS_DataPath.vhdl
+Z70 FD:/Documents/School/DD/LABS/Final_Project/MIPS_DataPath.vhdl
+l0
+L5
+VdT:XZ]VeFldAAkI@?MD7k0
+!s100 2me<P8=Hz8Bn4h^cj8:T20
+R7
+32
+R37
+!i10b 1
+R38
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/MIPS_DataPath.vhdl|
+Z72 !s107 D:/Documents/School/DD/LABS/Final_Project/MIPS_DataPath.vhdl|
+!i113 1
+R11
+R12
+Astr
+R21
+R13
+R49
+Z73 DEx4 work 6 sl_two 0 22 ZViH?jcgIR14elBNC=3Gl1
+Z74 DEx4 work 11 sign_extend 0 22 Hzo^f[dAg<TjPf8NnHW[P0
+Z75 DEx4 work 13 register_file 0 22 =Cd8diQPKWhXWE1NPM^G40
+R41
+R54
+Z76 DEx4 work 11 zero_extend 0 22 6I4@=FkiDzWghoSRX[M1U2
+Z77 DEx4 work 3 mux 0 22 O;Ga=P?;dm`OK]UDR4hDA3
+R52
+R1
+R2
+R3
+DEx4 work 13 mips_datapath 0 22 dT:XZ]VeFldAAkI@?MD7k0
+l50
+L29
+VF504BK[LYYfSc>2PW7hEM2
+!s100 B2c51gkTm:nRkMoS8jNjm3
+R7
+32
+R37
+!i10b 1
+R38
+R71
+R72
+!i113 1
+R11
+R12
+Emux
+Z78 w1585833824
+R1
+R2
+R3
+R4
+Z79 8D:\Documents\School\DD\LABS\Lab5\mux.vhdl
+Z80 FD:\Documents\School\DD\LABS\Lab5\mux.vhdl
+l0
+L5
+VO;Ga=P?;dm`OK]UDR4hDA3
+!s100 Y`Qb2R8Qj]N0DZoB908j81
+R7
+32
+R25
+!i10b 1
+R26
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Documents\School\DD\LABS\Lab5\mux.vhdl|
+Z82 !s107 D:\Documents\School\DD\LABS\Lab5\mux.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R77
+l15
+L14
+Vg1YO;<_FOC[Cil1:iaCAJ0
+!s100 P]V?DC4zAAQ:zHMcoK[CH1
+R7
+32
+R25
+!i10b 1
+R26
+R81
+R82
+!i113 1
+R11
+R12
+Emux_four
+Z83 w1585927722
+R1
+R2
+R3
+R4
+Z84 8D:/Documents/School/DD/LABS/Final_Project/mux_four.vhdl
+Z85 FD:/Documents/School/DD/LABS/Final_Project/mux_four.vhdl
+l0
+L5
+Vfm5@BA7OVW4fXAaJR>hhk3
+!s100 RmW];LRcgWcXdT4jQXSF`0
+R7
+32
+R37
+!i10b 1
+R38
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/mux_four.vhdl|
+Z87 !s107 D:/Documents/School/DD/LABS/Final_Project/mux_four.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R49
+l15
+L14
+Vl@mlHEnI72nm8kQdGnKM[3
+!s100 >Q491GH=7;>UQCZiFkKfD3
+R7
+32
+R37
+!i10b 1
+R38
+R86
+R87
+!i113 1
+R11
+R12
+Emux_three
+Z88 w1585823110
+R1
+R2
+R3
+R4
+Z89 8D:/Documents/School/DD/LABS/Final_Project/mux_three.vhdl
+Z90 FD:/Documents/School/DD/LABS/Final_Project/mux_three.vhdl
+l0
+L5
+Vj;>ii?JVD[<AM`[K?ChZC3
+!s100 _?ei8bB_KEDY;UznDO`zm2
+R7
+32
+Z91 !s110 1585823282
+!i10b 1
+Z92 !s108 1585823282.000000
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/mux_three.vhdl|
+Z94 !s107 D:/Documents/School/DD/LABS/Final_Project/mux_three.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+DEx4 work 9 mux_three 0 22 j;>ii?JVD[<AM`[K?ChZC3
+l15
+L14
+VPzUdaBDnWeCe7AOmODB3T2
+!s100 bR3V7i=e[3Tc:7^aci:V:0
+R7
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 1
+R11
+R12
+Ereg
+Z95 w1585928592
+R1
+R2
+R3
+R4
+Z96 8D:/Documents/School/DD/LABS/Lab5/reg.vhdl
+Z97 FD:/Documents/School/DD/LABS/Lab5/reg.vhdl
+l0
+L5
+VIJn0FzN`;FV94biM7Jb=i3
+!s100 JVMfC>=I`H;`gUQICnD^D0
+R7
+32
+Z98 !s110 1585928599
+!i10b 1
+Z99 !s108 1585928599.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Lab5/reg.vhdl|
+Z101 !s107 D:/Documents/School/DD/LABS/Lab5/reg.vhdl|
+!i113 1
+R11
+R12
+Ano_rst
+R1
+R2
+R3
+R52
+l36
+L34
+VSRSJN>mUNReWK;<FMYO3F0
+!s100 eRXjN;V335]a<hL>BSkg80
+R7
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R52
+l18
+L16
+VOXlg>k2nZU4HZ^IIQA6Bn0
+!s100 6mVma9o3L67S04=z?;dmf1
+R7
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 1
+R11
+R12
+Eregister_file
+Z102 w1585890907
+R1
+R2
+R3
+R4
+Z103 8D:/Documents/School/DD/LABS/Final_Project/register_file.vhdl
+Z104 FD:/Documents/School/DD/LABS/Final_Project/register_file.vhdl
+l0
+L5
+V=Cd8diQPKWhXWE1NPM^G40
+!s100 Q1QS^Sk>SVO<11IGJbR`X2
+R7
+32
+R17
+!i10b 1
+R18
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/register_file.vhdl|
+Z106 !s107 D:/Documents/School/DD/LABS/Final_Project/register_file.vhdl|
+!i113 1
+R11
+R12
+Aasync_read
+R1
+R2
+R3
+R75
+l23
+L20
+V>AoCLgEc;8n4kBJ[D?mDQ1
+!s100 d@C;;=??^j]D8=5=TD^U52
+R7
+32
+R17
+!i10b 1
+R18
+R105
+R106
+!i113 1
+R11
+R12
+Esign_extend
+Z107 w1585857824
+R1
+R2
+R3
+R4
+Z108 8D:/Documents/School/DD/LABS/Final_Project/sign_extend.vhdl
+Z109 FD:/Documents/School/DD/LABS/Final_Project/sign_extend.vhdl
+l0
+L5
+VHzo^f[dAg<TjPf8NnHW[P0
+!s100 alN4TF>?NQQa;22IReC>E3
+R7
+32
+R17
+!i10b 1
+R38
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/sign_extend.vhdl|
+Z111 !s107 D:/Documents/School/DD/LABS/Final_Project/sign_extend.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R74
+l15
+L14
+V9M`N3Y?_ON25SFii_^joD2
+!s100 A?nY5?hj;34Pa=T13dK_z0
+R7
+32
+R17
+!i10b 1
+R38
+R110
+R111
+!i113 1
+R11
+R12
+Esl_two
+Z112 w1585859826
+R1
+R2
+R3
+R4
+Z113 8D:/Documents/School/DD/LABS/Final_Project/SL_two.vhdl
+Z114 FD:/Documents/School/DD/LABS/Final_Project/SL_two.vhdl
+l0
+L5
+VZViH?jcgIR14elBNC=3Gl1
+!s100 ;1Yn;?0IlFn3Qz7GK]zXD1
+R7
+32
+R17
+!i10b 1
+R18
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/SL_two.vhdl|
+Z116 !s107 D:/Documents/School/DD/LABS/Final_Project/SL_two.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R73
+l16
+L14
+VYZ8?O>8Y[7EbhoU>XIX[42
+!s100 =4o0Q<g^POIkF6c>U@QKC2
+R7
+32
+R17
+!i10b 1
+R18
+R115
+R116
+!i113 1
+R11
+R12
+Esram
+Z117 w1585753946
+R50
+R2
+R3
+R4
+Z118 8D:/Documents/School/DD/LABS/Final_Project/RAM/sram.vhd
+Z119 FD:/Documents/School/DD/LABS/Final_Project/RAM/sram.vhd
+l0
+L42
+V]3c[LUj6:51Ofo@Ea;B9z2
+!s100 V`jB7hLRd`aQ_=CCo8K7M3
+R7
+32
+R37
+!i10b 1
+R38
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/RAM/sram.vhd|
+Z121 !s107 D:/Documents/School/DD/LABS/Final_Project/RAM/sram.vhd|
+!i113 1
+R11
+R12
+Asyn
+R50
+R2
+R3
+R51
+l58
+L54
+Vg?ngCOBCbA3;[K:mF[Ll91
+!s100 g6IKI]BRRX4W:8k=SYnFW2
+R7
+32
+R37
+!i10b 1
+R38
+R120
+R121
+!i113 1
+R11
+R12
+Ezero_extend
+Z122 w1585857994
+R1
+R2
+R3
+R4
+Z123 8D:/Documents/School/DD/LABS/Final_Project/zero_extend.vhdl
+Z124 FD:/Documents/School/DD/LABS/Final_Project/zero_extend.vhdl
+l0
+L5
+V6I4@=FkiDzWghoSRX[M1U2
+!s100 cSYzcGk@oXia7JWdcWL;X1
+R7
+32
+R17
+!i10b 1
+R18
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documents/School/DD/LABS/Final_Project/zero_extend.vhdl|
+Z126 !s107 D:/Documents/School/DD/LABS/Final_Project/zero_extend.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R1
+R2
+R3
+R76
+l14
+L13
+V9liZa76<[dVLm2eWXhPaX2
+!s100 >aFEoXd6o3OEdUC>9ESle1
+R7
+32
+R17
+!i10b 1
+R18
+R125
+R126
+!i113 1
+R11
+R12

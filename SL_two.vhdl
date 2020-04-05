@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity SL_two is
+    generic (
+        WIDTH : positive := 32;
+		IN_WIDTH : positive := 26);
+    port (
+			x				: in  std_logic_vector(IN_WIDTH-1 downto 0);
+			shifted 		: out std_logic_vector(WIDTH-1 downto 0));
+end SL_two;
+
+architecture BHV of SL_two is
+		signal extended : std_logic_vector(WIDTH-1 downto 0) ;
+begin
+	process(x)
+	begin
+		extended <= (others => '0');
+		if(WIDTH < 32) then 
+			extended <= std_logic_vector(resize(unsigned(x), 28));
+			shifted <= std_logic_vector(shift_left(unsigned(extended), 2));
+		else
+			shifted <= std_logic_vector(shift_left(unsigned(x), 2));
+		end if;
+	end process;
+end BHV;

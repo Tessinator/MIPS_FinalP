@@ -1,0 +1,72 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity alu is
+    port
+    (
+		input1, input2 : in std_logic_vector(31 downto 0);
+		Op_sel : in std_logic_vector(5 downto 0);
+		result, result_HI : out std_logic_vector(31 downto 0);
+		br_taken : out std_logic
+     );
+end alu;
+
+architecture BEHAV of alu is
+begin
+	process(input1, input2, Op_sel)
+    --constants for operations:
+	constant OP_ADD 	: std_logic_vector := "100001";
+	constant OP_SUB 	: std_logic_vector := "100011";
+	constant OP_MULT	: std_logic_vector := "011000";
+	constant OP_MULT_U	: std_logic_vector := "011010";
+	constant OP_AND		: std_logic_vector := "100100";
+	constant OP_OR		: std_logic_vector := "100101";
+	constant OP_XOR		: std_logic_vector := "100110";
+	constant OP_SRL		: std_logic_vector := "000010";
+	constant OP_SLL   	: std_logic_vector := "000000";
+	constant OP_SRA   	: std_logic_vector := "000011";
+	constant OP_SLT   	: std_logic_vector := "101010";
+	constant OP_SLT_U  	: std_logic_vector := "101011";
+	constant OP_BEQ   	: std_logic_vector := "101100";
+	constant OP_BNE   	: std_logic_vector := "101101";
+	constant OP_BLT_EQZ : std_logic_vector := "101110";
+	constant OP_BGT_Z  	: std_logic_vector := "101111";
+	constant OP_BLT_Z  	: std_logic_vector := "110001";
+	constant OP_BGT_EQZ : std_logic_vector := "110010";
+	constant OP_JMP  	: std_logic_vector := "001000";	
+	-- variable temp_small : std_logiOP_vector(WIDTH downto 0); --temp variable for smaller values
+	variable temp_large : unsigned((input1'length*2)-1 downto 0); -- temp variable for larger values 
+	-- variable temp_large2 : std_logiOP_vector(()-1 downto 0); -- temp variable for larger values
+	-- constant ZERO : std_logiOP_vector(temp_large'range) := (others => '0');
+	constant ZERO2 : std_logic_vector(input1'range) := (others => '0');
+	
+    begin
+
+	case Op_sel is --begin case statements for the IRects
+	    when OP_ADD => 
+			result <= std_logic_vector(unsigned(input1) + unsigned(input2));
+		when OP_SUB =>
+			result <= std_logic_vector(unsigned(input1) - unsigned(input2));
+		when OP_MULT =>
+			temp_large := input1 * input2;
+		when OP_AND =>
+		when OP_OR =>
+		when OP_XOR =>
+		when OP_SRL =>
+		when OP_SLL =>
+		when OP_SRA =>
+		when OP_SLT =>
+		when OP_SLT_U =>
+		when OP_BEQ =>
+		when OP_BNE =>
+		when OP_BLT_EQZ =>
+		when OP_BGT_Z =>
+		when OP_BLT_Z =>
+		when OP_BGT_EQZ =>
+		when OP_JMP =>		
+		when others =>--if others, result is zero
+			result <= ZERO2;
+	end case;
+    end process;
+end BEHAV;
